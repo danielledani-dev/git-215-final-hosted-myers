@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>The Cove Resort | Contact</title>
+        <meta name="author" content="Danielle Myers">
+        <meta name="description" content="The Cove would love to hear any questions, comments, or concerns that you have. Please use this page to contact us.">
+    
+    <!--favicon-->
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+    
+    <!--linked fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">  
+    
+    <!--stylesheet-->
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+    <header>
+        <h1><a href="index.html" aria-label="go to the home page">The Cove Resort | Contact</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="">Accommodations</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+    </header>
+    <main>
+        <section id="info">
+            <h2>Contact Us</h2>
+            <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!</p>
+            
+            <img src="images/swiss-sunset.jpg" alt="Photo of a beautiful Swiss Mountain Landscape with a pink sunset in the background, rolling Mountains in the middle, and a lake in the front that is lined with pine trees and cabins around the lakes' perimeter." width="710" height="270">
+    
+            <div>
+                <p>Required fields marked with a <span class="required">*</span></p>
+            </div>
+           
+            <form action="https://wp.zybooks.com/form-viewer.php" method="POST" target="_blank">
+                <label for="my-name">Full Name<span class="required">*</span></label>
+                <input type="text" name="my-name" id="my-name" required>
+
+                <label for="my-email">Email Address<span class="required">*</span></label>
+			    <input type="email" name="my-email" id="my-email" required>
+
+                <label for="my-phone">Phone Number<span class="required">*</span></label>
+			    <input type="tel" name="my-phone" id="my-phone">
+
+                <fieldset>
+                    <legend>Preferred Contact Method<span class="required">*</span></legend>
+                
+                    <input type="radio" name="contact-pref" id="pref-email" checked>
+                    <label for="pref-email">Email</label>
+                
+                    <input type="radio" name="contact-pref" id="pref-phone">
+                    <label for="pref-phone">Phone</label>
+                </fieldset>
+                
+                <label for="my-comments">Comments<span class="required">*</span></label>
+			    <textarea name="my-comments" id="my-comments"></textarea>
+
+			    <input type="submit" name="my-submit" id="my-submit" value="Submit Form">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright &copy;2023 - The Cove</p>
+        <div>
+            <p>This site is for educational purposes only</p>
+        </div>
+    </footer>
+    </body>
+</html>
